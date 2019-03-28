@@ -14,7 +14,6 @@ export default ({ post }) => {
             <img src={imgSrc} alt={altText} />
             {/* eslint-disable-next-line react/no-danger */}
             <h3 className="blueH3" dangerouslySetInnerHTML={{ __html: postTitle }} />
-            {/* <h2 className="p-card__title" href={post.link}>{post.title.rendered}</h2> */}
             <p className="p-card__content">
                 {'By '}
                 <a href={author.link}>{author.name}</a>
